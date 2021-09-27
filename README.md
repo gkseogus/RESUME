@@ -5,6 +5,7 @@
 
 University site : [한림대학교][hallym]  
 
+![
 -----------------------
 
 ### *My College major*
@@ -52,6 +53,7 @@ University site : [한림대학교][hallym]
 >> *  오소리 Club 2021~
 > * Award
 >> * [Hallym AI+X R&D Challenge - Track03](https://www.kaggle.com/c/hallym-2021-1-aicomp03) **1st**
+
 -----------------------
 
 [hallym]: https://www.hallym.ac.kr
