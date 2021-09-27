@@ -1,4 +1,4 @@
-# **Personal Resume**
+# :octocat: **Personal Resume :octocat:**
 <h4> Name : 한대현(Han Dae Hyeon) </h4>
 <h4> Email : fbznffldj998@naver.com </h4>
 <h4> University : Hallym University </h4>
@@ -19,7 +19,7 @@ University site : [한림대학교][hallym]
 -----------------------
 
 ### *My main language*
-1. [Python][Python]
+1. [Python][Python] 👍
 2. C
 3. Java
 
@@ -27,7 +27,7 @@ University site : [한림대학교][hallym]
 
 ### *Areas of interest*
 > * Open source
->> *  Tensorflow
+>> *  Tensorflow 👍
 >> *  Linux
 >> *  Ubuntu
 >> * ...
