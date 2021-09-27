@@ -5,7 +5,7 @@
 
 University site : [한림대학교][hallym]  
 
-![
+![my icon](/myicon.PNG)
 -----------------------
 
 ### *My College major*
