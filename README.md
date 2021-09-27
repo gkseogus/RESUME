@@ -10,7 +10,7 @@ University site : [한림대학교][hallym]
 ### *My College major*
 |학년|Major|Minor|
 |:---:|:---:|:---:|
-|1학년|소프트웨어융합대학|//|
+|1학년|**[소프트웨어융합대학](https://www.hallym.ac.kr/hallym_univ/sub01/cP14.html)**|//|
 |2학년|빅데이터|스마트IOT|
 |3학년|빅데이터|스마트IOT|
 |4학년|빅데이터|스마트IOT|
