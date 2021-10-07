@@ -44,6 +44,8 @@ University site : [한림대학교][hallym]
 4. [자세인식](https://github.com/gkseogus/Human-Activity)
 5. [원카드](https://github.com/gkseogus/OneCard_Project)
 6. [코로나확진자사이트](https://github.com/gkseogus/Corona-related-projects)
+7. [쓰레기통찾기앱](https://github.com/gkseogus/trashcan)
+8. [리눅스프로젝트(종합)](https://github.com/gkseogus/LinuxProject)
 
 -----------------------
 
