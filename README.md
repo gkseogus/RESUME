@@ -53,6 +53,7 @@ University site : [한림대학교][hallym]
 >> *  오소리 Club 2021~
 > * Award
 >> * [Hallym AI+X R&D Challenge - Track03](https://www.kaggle.com/c/hallym-2021-1-aicomp03) **1st**
+>> * ["방학? 놀면 뭐하니?"오픈소스SW 개발 공모전](https://sw.hallym.ac.kr/index.php?mt=page&mp=5_1&mm=oxbbs&oxid=1&cpage=1&key=TITLE_CONTENT&val=%B3%EE%B8%E9&CAT_ID=0&BID=273&cmd=view) **
 
 -----------------------
 
