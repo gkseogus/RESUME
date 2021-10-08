@@ -28,8 +28,8 @@ University site : [한림대학교][hallym]
 ### *Areas of interest*
 > * Open source
 >> *  Tensorflow 👍
->> *  Linux
->> *  Ubuntu
+>> *  Linux(Ubuntu)
+>> *  c++
 >> * ...
 > *  Deep learning
 > *  Machine learning
