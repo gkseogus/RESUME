@@ -38,10 +38,11 @@ University site : [한림대학교][hallym]
 -----------------------
 
 ### *Languages and Tools*
-![vscode](/VScode_icon.png)
-![TF](/TF_icon.png)
-![Eclipse](/Eclipse_icon.png)
-![Ubuntu](/Ubuntu_icon.png)
+<code><img height="40" src="https://github.com/gkseogus/RESUME/blob/main/VScode_icon.png"></code>
+<code><img height="40" src="https://github.com/gkseogus/RESUME/blob/main/TF_icon.png"></code>
+<code><img height="40" src="https://github.com/gkseogus/RESUME/blob/main/Eclipse_icon.png"></code>
+
+
 -----------------------
 
 ### *My project*
