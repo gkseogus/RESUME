@@ -34,7 +34,7 @@ University site : [한림대학교][hallym]
 > *  Deep learning
 > *  Machine learning
 > *  Web Design
-image:: https://img.shields.io/github/followers/gkseogus   :alt: GitHub followers
+
 -----------------------
 
 ### *Languages and Tools*
