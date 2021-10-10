@@ -5,7 +5,7 @@
 
 University site : [한림대학교][hallym]  
 
-<img src="https://img.shields.io/github/followers/gkseogus?style=social">
+<img src="https://img.shields.io/github/followers/gkseogus?style=social"> <a href="https://www.instagram.com/hf1_00/" target="_blank"><img src="https://img.shields.io/badge/hf1_00-#E4405F?style=social&logo=appveyor&logoColor=#E4405F"/></a>
 
 ![my icon](/myicon.PNG)
 -----------------------
