@@ -37,6 +37,13 @@ University site : [한림대학교][hallym]
 
 -----------------------
 
+### *Languages and Tools*
+![vscode](/VScode_icon.PNG)
+![TF](/TF_icon.PNG)
+![Eclipse](/Eclipse_icon.PNG)
+![Ubuntu](/Ubuntu_icon.PNG)
+-----------------------
+
 ### *My project*
 1. [가스누출기](https://github.com/gkseogus/GasLeak_Detector)
 2. [크랙탐지](https://github.com/gkseogus/DeepLearning_CreakDetection)
