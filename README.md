@@ -58,6 +58,8 @@ University site : [한림대학교][hallym]
 >> * ["방학? 놀면 뭐하니?"오픈소스SW 개발 공모전](https://hlsw.hallym.ac.kr/index.php?mt=page&mp=5_2&mm=oxbbs&oxid=2&cpage=1&key=&val=&CAT_ID=0&BID=492&cmd=view) **1st(문희찬 팀)**
 
 -----------------------
+![gkseogus's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+
 
 [hallym]: https://www.hallym.ac.kr
 [Python]: https://www.python.org
