@@ -3,6 +3,9 @@
 <h4> Email : fbznffldj998@naver.com </h4>
 <h4> University : Hallym University </h4>
 
+<img src="https://img.shields.io/github/followers/gkseogus?style=social">
+![](https://img.shields.io/github/followers/AlpoxDev?style=social)
+
 University site : [한림대학교][hallym]  
 
 ![my icon](/myicon.PNG)
