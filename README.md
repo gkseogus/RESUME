@@ -11,6 +11,7 @@ University site : [한림대학교][hallym]
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-dd2a7b?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/hf1_00/)](https://www.instagram.com/hf1_00/)
 [![Facebook Badge](https://img.shields.io/badge/-Facebook-1877f2?style=flat-square&logo=facebook&logoColor=white&link=https://www.facebook.com/profile.php?id=100007702273888)](https://www.facebook.com/profile.php?id=100007702273888) 
 
+![my icon](/myicon.PNG)
 
 -----------------------
 
@@ -26,8 +27,8 @@ University site : [한림대학교][hallym]
 
 ### *My main language*
 1. [Python][Python] 👍
-2. C
-3. Java
+2. [C][VScode]
+3. [Java][Java]
 
 -----------------------
 
@@ -81,3 +82,5 @@ University site : [한림대학교][hallym]
 
 [hallym]: https://www.hallym.ac.kr
 [Python]: https://www.python.org
+[VScode]: https://code.visualstudio.com
+[Java]: https://www.java.com/ko
