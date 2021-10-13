@@ -64,6 +64,12 @@ University site : [한림대학교][hallym]
 
 -----------------------
 
+### *My baekjoon*
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=fbznffldj998)](https://solved.ac/fbznffldj998)
+
+-----------------------
+
 ### *My career*
 > * Club president
 >> *  허스 Club 2020~2021
