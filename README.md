@@ -68,6 +68,7 @@ University site : [한림대학교][hallym]
 1. [백준알고리즘](https://github.com/gkseogus/BK_Algorithm)
 2. [HusClub멘토링](https://github.com/gkseogus/HusClub_mentoring)
 3. [OOS연습](https://github.com/gkseogus/OOS)
+4. [Pygame](https://github.com/gkseogus/PygamePractice)
 
 -----------------------
 ### *My career*
