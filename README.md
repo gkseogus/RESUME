@@ -60,13 +60,19 @@ University site : [한림대학교][hallym]
 5. [원카드](https://github.com/gkseogus/OneCard_Project)
 6. [코로나확진자사이트](https://github.com/gkseogus/Corona-related-projects)
 7. [쓰레기통찾기앱](https://github.com/gkseogus/trashcan) (진행중)
-8. [리눅스프로젝트(종합)](https://github.com/gkseogus/LinuxProject)
+8. [리눅스프로젝트](https://github.com/gkseogus/LinuxProject)
 
 -----------------------
 
+### *Practice and study*
+1. [백준알고리즘](https://github.com/gkseogus/BK_Algorithm)
+2. [HusClub멘토링](https://github.com/gkseogus/HusClub_mentoring)
+3. [OOS연습](https://github.com/gkseogus/OOS)
+
+-----------------------
 ### *My career*
 > * Club president
->> *  허스 Club 2020~2021
+>> *  HUS Club 2020~2022
 >> *  오소리 Club 2021~
 > * Award
 >> * [Hallym AI+X R&D Challenge - Track03](https://www.kaggle.com/c/hallym-2021-1-aicomp03) **1st**
