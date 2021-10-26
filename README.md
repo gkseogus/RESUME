@@ -78,7 +78,7 @@ University site : [한림대학교][hallym]
 > * Award
 >> * [Hallym AI+X R&D Challenge - Track03](https://www.kaggle.com/c/hallym-2021-1-aicomp03) **1st**
 >> * ["방학? 놀면 뭐하니?"오픈소스SW 개발 공모전](https://hlsw.hallym.ac.kr/index.php?mt=page&mp=5_2&mm=oxbbs&oxid=2&cpage=1&key=&val=&CAT_ID=0&BID=492&cmd=view) **1st(문희찬 팀)**
->> * [2021년도 추계종합학술발표회](https://conf.kics.or.kr/) **딥 러닝기반 실시간 영상처리를 통한 크랙 탐지 및 개인형 이동수단 주행 보조 시스템 개발(학부논문합격)
+>> * [2021년도 추계종합학술발표회](https://conf.kics.or.kr/) **딥 러닝기반 실시간 영상처리를 통한 크랙 탐지 및 개인형 이동수단 주행 보조 시스템 개발(학부논문합격)**
 -----------------------
 
 ### *My baekjoon*
