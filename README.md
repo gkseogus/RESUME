@@ -28,8 +28,8 @@ University site : [한림대학교][hallym]
 
 ### *My main language*
 1. [Python][Python] 👍
-2. [C][VScode]
-3. [Java][Java]
+2. [Java][Java]
+3. [C][VScode]
 
 -----------------------
 
@@ -68,8 +68,8 @@ University site : [한림대학교][hallym]
 ### *Practice and study*
 1. [백준알고리즘](https://github.com/gkseogus/BK_Algorithm)
 2. - [x] [HusClub멘토링](https://github.com/gkseogus/HusClub_mentoring)
-3. - [x] [OOS연습](https://github.com/gkseogus/OOS)
-4. - [x] [Pygame](https://github.com/gkseogus/PygamePractice)
+3. - [x] [Pygame](https://github.com/gkseogus/PygamePractice)
+4. - [x] [Html,CSS,JS](https://github.com/gkseogus/web_practice)
 
 -----------------------
 ### *My career*
