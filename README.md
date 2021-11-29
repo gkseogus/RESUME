@@ -1,6 +1,8 @@
 # :octocat: **Personal Resume :octocat:**
 <h4> Name : 한대현(Han Dae Hyeon) </h4>
-<h4> Email : fbznffldj998@naver.com </h4>
+
+Email : <fbznffldj998@naver.com> 
+
 <h4> University : Hallym University </h4>
 
 University site : [한림대학교][hallym]  
