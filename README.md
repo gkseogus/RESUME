@@ -62,7 +62,7 @@ University site : [한림대학교][hallym]
 6. [코로나확진자사이트](https://github.com/gkseogus/Corona-related-projects)
 7. [쓰레기통찾기앱](https://github.com/gkseogus/trashcan) (진행중)
 8. [리눅스프로젝트](https://github.com/gkseogus/LinuxProject)
-
+9. [운동사이트](https://github.com/gkseogus/Exercise_website) (진행중)
 -----------------------
 
 ### *Practice and study*
