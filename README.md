@@ -64,14 +64,14 @@ University site : [한림대학교][hallym]
 6. [코로나확진자사이트](https://github.com/gkseogus/Corona-related-projects)
 7. [쓰레기통찾기앱](https://github.com/gkseogus/trashcan) 
 8. [리눅스프로젝트](https://github.com/gkseogus/LinuxProject)
-9. [운동사이트](https://github.com/gkseogus/Exercise_website) 
+9. [과수확물해충인식](https://github.com/gkseogus/DeepLearing_FruitCrops)
 -----------------------
 
 ### *Practice and study*
 1. [백준알고리즘](https://github.com/gkseogus/BK_Algorithm)
 2. - [x] [HusClub멘토링](https://github.com/gkseogus/HusClub_mentoring)
 3. - [x] [Pygame](https://github.com/gkseogus/PygamePractice)
-4. - [x] [Html,CSS,JS](https://github.com/gkseogus/web_practice)
+4. - [x] [Html,CSS,JS](https://github.com/gkseogus/Exercise_website)
 
 -----------------------
 ### *My career*
