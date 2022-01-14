@@ -77,7 +77,7 @@ University site : [한림대학교][hallym]
 ### *My career*
 > * Club president
 >> *  HUS Club 2020~2022
->> *  오소리 Club 2021~
+>> *  오소리 Club 2021~2022
 > * Award
 >> * [Hallym AI+X R&D Challenge - Track03](https://www.kaggle.com/c/hallym-2021-1-aicomp03) **1st(대상)**
 >> * [Hallym AI+X R&D Challenge - Track05](https://www.kaggle.com/c/hallym-2021-2-aicomp05) **3st(동상)**
