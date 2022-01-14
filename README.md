@@ -80,6 +80,7 @@ University site : [한림대학교][hallym]
 >> *  오소리 Club 2021~
 > * Award
 >> * [Hallym AI+X R&D Challenge - Track03](https://www.kaggle.com/c/hallym-2021-1-aicomp03) **1st(대상)**
+>> * [Hallym AI+X R&D Challenge - Track05](https://www.kaggle.com/c/hallym-2021-2-aicomp05) **3st(동상)**
 >> * [HBC-5 오픈소스 딥러닝 해커톤](https://hlsw.hallym.ac.kr/index.php?mt=page&mp=5_2&mm=oxbbs&oxid=2&cpage=1&key=&val=&CAT_ID=&BID=547&cmd=view) **5st(동상)**
 >> * ["방학? 놀면 뭐하니?"오픈소스SW 개발 공모전](https://hlsw.hallym.ac.kr/index.php?mt=page&mp=5_2&mm=oxbbs&oxid=2&cpage=1&key=&val=&CAT_ID=0&BID=492&cmd=view) **1st(문희찬 팀,금상)**
 >> * [GitHub 해커톤](https://hlsw.hallym.ac.kr/index.php?mt=page&mp=5_2&mm=oxbbs&oxid=2&cpage=1&key=&val=&CAT_ID=0&BID=540&cmd=view) **1st(금상)**
