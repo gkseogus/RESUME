@@ -30,8 +30,8 @@ University site : [한림대학교][hallym]
 
 ### *My main language*
 1. [Python][Python] 👍
-2. [Java][Java]
-3. [C][VScode]
+2. [JavaScript][Javascript]
+3. [JSX][React]
 
 -----------------------
 
@@ -65,6 +65,7 @@ University site : [한림대학교][hallym]
 7. [쓰레기통찾기앱](https://github.com/gkseogus/trashcan) 
 8. [리눅스프로젝트](https://github.com/gkseogus/LinuxProject)
 9. [과수확물해충인식](https://github.com/gkseogus/DeepLearing_FruitCrops)
+10. [React & Redux ShopApp](https://github.com/gkseogus/React_shopApp)
 -----------------------
 
 ### *Practice and study*
@@ -72,6 +73,7 @@ University site : [한림대학교][hallym]
 2. - [x] [HusClub멘토링](https://github.com/gkseogus/HusClub_mentoring)
 3. - [x] [Pygame](https://github.com/gkseogus/PygamePractice)
 4. - [x] [Html,CSS,JS](https://github.com/gkseogus/Exercise_website)
+5. - [x] [React & Redux](https://github.com/gkseogus/React_Practice)
 
 -----------------------
 ### *My career*
@@ -102,5 +104,5 @@ University site : [한림대학교][hallym]
  
 [hallym]: https://www.hallym.ac.kr
 [Python]: https://www.python.org
-[VScode]: https://code.visualstudio.com
-[Java]: https://www.java.com/ko
+[React]: https://ko.reactjs.org/
+[Javascript]: https://ko.javascript.info/
