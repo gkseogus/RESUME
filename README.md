@@ -72,7 +72,7 @@ University site : [한림대학교][hallym]
 ### *Practice and study*
 1. [백준알고리즘](https://github.com/gkseogus/BK_Algorithm)
 2. - [x] [HusClub멘토링](https://github.com/gkseogus/HusClub_mentoring)
-3. - [x] [Pygame](https://github.com/gkseogus/PygamePractice)
+3. - [x] [Pygame](https://github.com/gkseogus/PygamePractice) -> stop
 4. - [x] [Html,CSS,JS](https://github.com/gkseogus/Exercise_website)
 5. - [x] [React & Redux](https://github.com/gkseogus/React_Practice)
 
