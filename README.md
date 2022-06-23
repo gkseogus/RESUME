@@ -29,9 +29,9 @@ University site : [한림대학교][hallym]
 -----------------------
 
 ### *My main language*
-1. [Python][Python] 👍
-2. [JavaScript][Javascript]
-3. [JSX][React]
+1. [JavaScript][Javascript] 👍
+2. [JSX][React] 👍
+3. [Python][Python] 
 
 -----------------------
 
@@ -39,7 +39,7 @@ University site : [한림대학교][hallym]
 
 > * Open source
 >> *  Tensorflow 👍
->> *  Linux(Ubuntu)
+>> *  React 👍
 >> *  c++
 >> * ...
 > *  Deep learning
@@ -79,10 +79,15 @@ University site : [한림대학교][hallym]
 5. - [x] [React & Redux](https://github.com/gkseogus/React_Practice)
 
 -----------------------
+
 ### *My career*
+> * Career in office
+>> * (주)에이치나인 R&D 부서 인턴십 2022/01/03 ~ 2022/07/01 
+
 > * Club president
->> *  HUS Club 2020~2022
->> *  오소리 Club 2021~2022
+>> *  HUS Club Chairman 2020~2022 
+>> *  오소리 Club Chairman 2021~2022
+
 > * Award
 >> * [Hallym AI+X R&D Challenge - Track03](https://www.kaggle.com/c/hallym-2021-1-aicomp03) **1st(대상)**
 >> * [Hallym AI+X R&D Challenge - Track05](https://www.kaggle.com/c/hallym-2021-2-aicomp05) **3st(은상)**
@@ -90,6 +95,7 @@ University site : [한림대학교][hallym]
 >> * ["방학? 놀면 뭐하니?"오픈소스SW 개발 공모전](https://hlsw.hallym.ac.kr/index.php?mt=page&mp=5_2&mm=oxbbs&oxid=2&cpage=1&key=&val=&CAT_ID=0&BID=492&cmd=view) **1st(문희찬 팀,금상)**
 >> * [GitHub 해커톤](https://hlsw.hallym.ac.kr/index.php?mt=page&mp=5_2&mm=oxbbs&oxid=2&cpage=1&key=&val=&CAT_ID=0&BID=540&cmd=view) **1st(금상)**
 >> * [2021년도 추계종합학술발표회](https://conf.kics.or.kr/) **딥 러닝기반 실시간 영상처리를 통한 크랙 탐지 및 개인형 이동수단 주행 보조 시스템 개발(학부논문합격+우수논문선정, 장려상 )**
+
 -----------------------
 
 ### *My baekjoon*
