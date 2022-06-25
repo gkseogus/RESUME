@@ -82,7 +82,7 @@ University site : [한림대학교][hallym]
 
 ### *My career*
 > * Career in office
->> * (주)에이치나인 R&D 부서 인턴십 2022/01/03 ~ 2022/07/01 
+>> * (주)[에이치나인] R&D 부서 인턴십 2022/01/03 ~ 2022/07/01 
 
 > * Club president
 >> *  HUS Club Chairman 2020~2022 
@@ -119,3 +119,4 @@ University site : [한림대학교][hallym]
 [Python]: https://www.python.org
 [React]: https://ko.reactjs.org/
 [Javascript]: https://ko.javascript.info/
+[에이치나인]: https://www.hnine.com/
