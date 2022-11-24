@@ -30,7 +30,7 @@ University site : [한림대학교][hallym]
 
 ### *My main language*
 1. [JavaScript][Javascript] 👍
-2. [JSX][React] 👍
+2. [React][React] 👍
 3. [Python][Python] 
 
 -----------------------
@@ -38,9 +38,9 @@ University site : [한림대학교][hallym]
 ### *Areas of interest*
 
 > * Open source
->> *  Tensorflow 👍
 >> *  React 👍
->> *  c++
+>> *  Javascript & Typescript 👍
+>> *  Tensorflow 👍
 >> * ...
 > *  Deep learning
 > *  Machine learning
