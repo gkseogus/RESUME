@@ -66,9 +66,10 @@ University site : [한림대학교][hallym]
 7. [쓰레기통찾기앱](https://github.com/gkseogus/trashcan) 
 8. [리눅스프로젝트](https://github.com/gkseogus/LinuxProject)
 9. [과수확물해충인식](https://github.com/gkseogus/DeepLearing_FruitCrops)
-10. [React & Redux ShopApp](https://github.com/gkseogus/React_shopApp)
-11. [React & Redux CommuteApp](https://github.com/gkseogus/React_commuteApp)
-12. [React & Redux ExerciseApp](https://github.com/gkseogus/React_exerciseApp)
+10. [React MyPortfolioApp](https://github.com/gkseogus/React_MyPortfolioApp)
+11. [React & Redux ShopApp](https://github.com/gkseogus/React_shopApp)
+12. [React & Redux CommuteApp](https://github.com/gkseogus/React_commuteApp)
+13. [React & Redux ExerciseApp](https://github.com/gkseogus/React_exerciseApp)
 -----------------------
 
 ### *Practice and study*
