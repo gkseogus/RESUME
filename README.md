@@ -31,7 +31,8 @@ University site : [한림대학교][hallym]
 ### *My main language*
 1. [JavaScript][Javascript] 👍
 2. [React][React] 👍
-3. [Python][Python] 
+3. [JAVA][JAVA]
+4. [Python][Python] 
 
 -----------------------
 
@@ -40,6 +41,7 @@ University site : [한림대학교][hallym]
 > * Open source
 >> *  React 👍
 >> *  Javascript & Typescript 👍
+>> *  JAVA & SQL 👍
 >> *  Tensorflow 👍
 >> * ...
 > *  Deep learning
@@ -122,6 +124,7 @@ University site : [한림대학교][hallym]
 [hallym]: https://www.hallym.ac.kr
 [Python]: https://www.python.org
 [React]: https://ko.reactjs.org/
+[JAVA]: https://www.java.com/ko/
 [Javascript]: https://ko.javascript.info/
 [에이치나인]: https://www.hnine.com/
 [진진시스템]: https://jinjin.co.kr/main.do
