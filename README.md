@@ -246,6 +246,12 @@
 
 ---
 
+## Algorithm
+
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=fbznffldj998)](https://solved.ac/fbznffldj998)
+
+---
+
 ## GitHub Stats
 
 <p align="center">
