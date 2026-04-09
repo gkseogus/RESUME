@@ -243,6 +243,7 @@
 | **대한체육회 레슬링 참가신청** | https://app.sports.or.kr/app_wr/app/main.do |
 | **추계종합학술발표회 논문** | [DBpia 링크](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11023003) |
 | **GitHub** | https://github.com/gkseogus |
+| **포트폴리오** | https://www.han-portfolio.com |
 
 ---
 
@@ -253,11 +254,6 @@
 ---
 
 ## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gkseogus&show_icons=true&theme=default&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gkseogus&layout=compact&hide_border=true" height="165" />
-</p>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gkseogus&theme=default" />
