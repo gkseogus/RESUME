@@ -7,11 +7,12 @@
 
 ---
 
-프론트, 백엔드 구분 없이 개발해온 **5년차 개발자**입니다.
+서비스를 처음부터 만들어 운영까지 책임지는 **백엔드 중심 풀스택 개발자**입니다.
 
-- 요구사항 분석부터 설계, 개발, 테스트, 배포, 운영까지 **전체 개발 라이프사이클**을 경험했습니다.
-- 이슈를 예측하고 최소한의 오류만을 허용하기 위해 **테스트 코드**를 중요시합니다.
-- 혼자가 아닌 **팀원들과 함께** 일하는 것을 중요시합니다.
+- 최근 6개월간 AI 매거진·반려견 영양 추천 SaaS 등 **7개+ 서비스를 단독 구축·운영** (FastAPI·PostgreSQL·AWS·Terraform)
+- AWS 비용 월 **$164 → $21(87%) 절감**, 배포 시간 **11분 → 5분 39초** 단축
+- 장애는 근본 원인까지 추적해 고치고, 회귀 테스트로 재발을 막습니다 (서비스당 백엔드 테스트 **1,800~2,500건** 유지)
+- LLM을 제품에 넣을 때 **폴백·비용 추적·숫자 환각 방지 가드**까지 함께 설계합니다
 
 ---
 
@@ -26,18 +27,137 @@
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 
 #### Also Working With
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
 ---
 
 ## Experience
+
+### 리비스튜디오 (Re:B Studios)
+`2026.04 - 현재` | 개발팀
+
+#### AI 페르소나 매거진 플랫폼 (Re:PAGE) 풀스택 구축·운영
+> FastAPI, PostgreSQL 16, Next.js (SSR/ISR), React 19, TanStack Query, Zustand, Tailwind v4, AWS (EC2 Graviton, RDS, ALB, S3, SES, EventBridge, SSM), Terraform, GitHub Actions, OpenAI·Gemini
+
+**ISSN 등록 AI 매거진(ISSN 3140-2437) 백엔드·어드민·공개 사이트·인프라 단독 담당**
+
+<details>
+<summary><b>AI 콘텐츠 파이프라인</b></summary>
+
+- 블로그 자동화: 키워드 분석→크롤링→자료조사→AI 작성→AI 섹션별 채점·재작성, Gemini 장애 시 GPT 폴백
+- 매거진 회차: 한 주제로 페르소나 N명의 글 일괄 생성, 60초 주기 발행 tick으로 회차 단위 all-or-nothing 발행(실패 시 3회 재시도), 인용 링크 자동 검증 점수화
+- AI 페르소나 생성기: 앵커 이미지 reference 재사용으로 얼굴 일관성 유지, 타입당 24장 양산
+- 영상 자동화 + YouTube·Instagram·TikTok OAuth(PKCE) 예약 업로드
+</details>
+
+<details>
+<summary><b>안정성 및 비용</b></summary>
+
+- 작업 정체(약 1시간 50분) 근본 수정: DB 추적으로 '외부 호출 무한 대기' 가설을 반증하고 워커 사망을 원인으로 확정 → 리퍼(60초)·하트비트(30초)·poison-pill(3회)·외부 await 7곳 타임아웃 적용
+- 모든 LLM 호출에 토큰·비용(USD/원화) 계측 대시보드 구축, 기능별 비용 오귀속 버그 발견·수정
+- 중복 코드 약 900~1,100줄 제거·공용 모듈 17종 추출, sync OpenAI 타임아웃 600초 → 60/180초
+- 테스트 실행 **46.7초 → 16.4초(2.8배)**: pytest 병렬화, AWS 월 약 $21.7(약 20%) 절감
+</details>
+
+<details>
+<summary><b>회원 및 보안</b></summary>
+
+- 회원 JWT를 관리자 JWT와 분리(별도 시크릿·scope, 교차 사용 401 회귀 테스트), 멱등 찜 API, 소셜 로그인
+- 어드민 OWASP 점검(High 2/Medium 3/Low 3) 조치: 의존성 CVE 0, 보안 헤더 6종, 오픈 리다이렉트 차단
+</details>
+
+<details>
+<summary><b>SEO/AEO</b></summary>
+
+- 목록 페이지 서버 prefetch+ISR 전환으로 JS 미실행 크롤러도 본문 수집, 백엔드 5xx가 404로 처리돼 색인이 삭제되던 문제 수정
+- 사이트맵 **25 → 162개** 복구: 빈 API 키 빌드 + Promise.allSettled가 실패를 삼키던 원인 추적, 재발 시 빌드 실패 가드
+- AI 검색 인용 240회(쿼리 60 × 플랫폼 4) 실측, AI 봇 방문 실측(7일간 GPTBot 326회·ClaudeBot 241회)
+</details>
+
+**성과**
+- **7개+ 서비스 단독 운영 전환**: 전임 CTO로부터 AWS·Vercel·GitHub·결제·소셜로그인 권한 인수인계
+- 백엔드 테스트 **380건(5월) → 2,554건(9월)**
+- 업무를 Jira 에픽 174건으로 구조화하고 주간 보고로 대표와 진행 상황 공유 (저장소 15개 · 본인 커밋 5,665건)
+
+#### 반려견 맞춤 영양 추천 SaaS (밀리크) 재구축·운영 및 OCR 간편분석 구축
+> FastAPI, PostgreSQL 16, SQLAlchemy 2.0/Alembic, SQS+DLQ, pgvector, OpenAI gpt-4o (Vision OCR), Next.js, TanStack Query, Playwright, AWS (EC2, ALB, RDS, S3, SES, Secrets Manager, CloudWatch, SSM, ECR), Terraform, GitHub Actions, Vercel
+
+**중단됐던 서비스를 백엔드·프론트·인프라 단독으로 재구축해 2주 만에 재오픈**
+
+<details>
+<summary><b>재구축 및 비용</b></summary>
+
+- AWS 리소스 47개 Terraform 구축: 저장소 3분리(BE/FE/인프라), SSH 없는 SSM 배포 파이프라인
+- AWS 비용 월 **$164 → $21(87%)** 절감: 미사용 리소스 정리, 이후 숨어 있던 NAT 과금 등 월 약 $73 추가 절감
+</details>
+
+<details>
+<summary><b>추천 엔진</b></summary>
+
+- FEDIAF 2025 기반 열량 계산 + 규칙 엔진(질환 12종·독성 원료 10종·복합질환 충돌 6종), 자사 제품 1~3종 조합 급여량(g) 산출
+- 조건식은 AST 기반 안전 평가기로 실행, 발동 규칙을 결과 스냅샷에 기록해 추적 가능하게 설계
+- RAG(pgvector 키워드+벡터 하이브리드)로 근거 문서 검색, LLM은 확정 결과 설명에만 사용하고 새 숫자·제품이 나오면 코드가 거부 → 템플릿 폴백
+- 사료 DB 적재 **30분+ → 3초**: 일괄 적재 전환, 시판 사료 2,262종/231개 브랜드 DB와 식약처 공공 DB 연동 파이프라인 구축
+</details>
+
+<details>
+<summary><b>OCR 간편분석 퍼널</b></summary>
+
+- 회원가입 없이 사료 라벨 촬영 → OCR → 분석 → 구매의향 제출까지 이어지는 게스트 퍼널, 본 서비스 백엔드·엔진 재사용
+- Vercel rewrites 동일 오리진 프록시로 CORS 변경 없이 신규 도메인 연결
+- 고객사 수정요구서 22건 하루 만에 반영: 계획·구현·배포 완료, 이전 판독값이 새 입력을 덮어쓰던 데이터 무결성 버그 근본 수정
+- 사료당 사진 3장 취합 + 값 불일치 시 사용자 확인 흐름, 급성 신호 선택 시 서버가 저장 시점에 안전 판정
+- 프로덕션 연쇄 블로커 5건 근본 수정, 실서버에서 동작하지 않던 폴링 잠복 버그 교정
+</details>
+
+<details>
+<summary><b>운영 안정성</b></summary>
+
+- 비밀번호 교체 장애 0건: RDS 7일 자동 교체로 12분간 요청 39건이 실패하던 문제를 인증 실패 시 Secrets Manager 재조회로 근본 수정
+- 트랜잭션 결함 24건 단계적 수정(ACID 하드닝): 상태 전이 CAS, 원자 증가, 커밋→외부 호출→보상, DLQ 성공 시에만 삭제, 휴대폰 인증 시도 횟수 우회 차단
+- 무중단 배포 체계: 파괴적 마이그레이션 자동 차단 게이트(AST로 DROP/RENAME 검출, fail-closed), 추가 전용 마이그레이션, CloudWatch 알람 17종
+- OWASP Top 10 점검: CSV 수식 주입·인증 링크 로그 노출 차단, CSP/HSTS, 비루트 컨테이너, IMDSv2
+</details>
+
+**성과**
+- 백엔드 pytest **1,822건**(3회 연속 플레이키 0건) · 프론트 유닛 542건 · e2e 63건 확보
+- 운영 스모크 21/21 통과, AWS 월 비용 **87% 절감**
+- 비개발자용 계산 로직·AI 사용 안내서를 작성해 대표·고객사와 판단 기준 공유
+
+#### 시장 모니터링 AI 에이전트 (마켓펄스) 구축
+> Python, Slack Bolt (Socket Mode), Anthropic Claude, 네이버 검색광고·DataLab API, EventBridge, SQS, ECS Fargate, RDS PostgreSQL, Terraform, GitHub Actions (OIDC)
+
+**슬랙·노션만으로 운영하는 마케팅 시장 모니터링 에이전트 단독 개발**
+
+- 공식 API 기반 수집기 4종, 수치는 코드가 계산하고 LLM은 해석 문장만 작성 → 발송 전 문장 속 숫자를 계산값과 대조해 **환각 차단**
+- 봇이 쓸 수 있는 조회 도구를 7종으로 제한한 권한 설계
+- AWS 리소스 약 60개 Terraform 구축, 마이그레이션 게이트 포함 자동 배포
+- 배포 시간 **약 11분 → 5분 39초**: ARM 네이티브 러너 전환
+- DB 연결 무중단으로 RDS private 전환 (베스천+VPC 피어링만 허용)
+- 타입 경고 298건 → 0건, 테스트 243건 확보, 월 운영비 약 8~11만 원
+
+#### 사내 업무 자동화 도구 구축 (근태 앱 · Jira 에픽 봇 · 사업 구조 분석 AI 에이전트)
+> Next.js, Supabase (RLS), Vercel Cron, AWS Lambda, Claude, FastAPI, AWS Bedrock
+
+**사내 업무 효율화를 위한 도구 3종 단독 개발·운영**
+
+- **GPS 출퇴근 앱**: 다중 오피스·연차 승인 워크플로·근무대장 export, 비품 구매 요청·승인·정산 상태 머신(DB CHECK 제약 14개 + 트리거)
+  - 운영 RLS 점검으로 권한 상승 결함 4건 제거, 자동 퇴근 cron이 기록을 남기지 못하던 버그 근본 수정, 운영 e2e 396건 통과
+- **Jira 에픽 봇**: 슬랙 자유 텍스트를 Claude가 파싱해 에픽 1개 + 하위 이슈 3~7개 자동 생성 (Lambda 3초 응답 후 비동기 재호출)
+  - 스키마 드리프트 방지 테스트로 하위 이슈 미생성 버그 차단, 월 고정비 약 $0.5 · 건당 $0.01~0.02
+- **사업 구조 분석 AI 에이전트**: 사전 진단 → 8축 스코어링 → 보고서 파이프라인 (FastAPI, Bedrock Claude, RAG, SSE)
+  - 4만 토큰 참조 문서에 프롬프트 캐싱 적용해 **입력 비용 90% 절감**
+
+---
 
 ### 하이퍼스타 주식회사 (Hyperstar Inc.)
 `2025.10 - 2026.02` | 정규직 | 개발팀
@@ -238,6 +358,8 @@
 
 | | |
 |---|---|
+| **Re:PAGE (AI 매거진)** | https://www.repage.co.kr |
+| **밀리크 (반려견 영양 추천)** | https://mealiq.co.kr |
 | **뮤즈강남 홈페이지** | https://gangnam.museclinic.co.kr/ko |
 | **대한체육회 하키 참가신청** | https://app.sports.or.kr/app_ih/app/main.do |
 | **대한체육회 레슬링 참가신청** | https://app.sports.or.kr/app_wr/app/main.do |
